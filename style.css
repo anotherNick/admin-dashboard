@@ -1,0 +1,19 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+
+:root {
+
+    --black: #142030;
+    --primary-light: #FF5C8D;
+    --primary-dark: #732553;
+    --secondary-light: #85A3B2;
+    --secondary-dark: #1E3442;
+    --tertiary-light: #E9D8C8;
+
+}
+
+body {
+
+    background-color: var(--black);
+
+}
